@@ -1,0 +1,14 @@
+/* Custom Profile Photo Style */
+.profile-photo {
+  background-color: #d1d5db; /* Tailwind gray-300 */
+}
+
+/* Custom Screenshot Style */
+.screenshot {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}
+
+/* Contact Form Placeholder Style */
+.contact-form {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}

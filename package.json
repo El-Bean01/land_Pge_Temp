@@ -1,0 +1,28 @@
+{
+  "name": "land_pge_temp",
+  "version": "1.0.0",
+  "description": "Landing Page for Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/El-Bean01/land_Pge_Temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/El-Bean01/land_Pge_Temp/issues"
+  },
+  "homepage": "https://github.com/El-Bean01/land_Pge_Temp#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17"
+  }
+}

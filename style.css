@@ -12,3 +12,18 @@
 .contact-form {
   background-color: #e5e7eb; /* Tailwind gray-200 */
 }
+
+/* Profile Photo Placeholder */
+.profile-photo {
+  background-color: #d1d5db; /* gray-300 fallback */
+}
+
+/* Screenshot Placeholder */
+.screenshot {
+  background-color: #e5e7eb; /* gray-200 fallback */
+}
+
+/* Contact Form Background Placeholder */
+.contact-form {
+  background-color: #e5e7eb; /* gray-200 fallback */
+}

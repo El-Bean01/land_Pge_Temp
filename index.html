@@ -13,19 +13,20 @@
 </head>
 <body class="bg-gray-100 text-gray-900">
 
-  <!-- HEADER / HERO SECTION -->
+ <!-- HEADER / HERO SECTION -->
   <header class="w-full bg-white shadow-sm">
     <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col items-center text-center">
-      <div class="profile-photo w-32 h-32 rounded-full overflow-hidden mb-4"></div>
-      <h1 class="text-3xl font-bold mb-1">Hey, I'm Elvin</h1>
-      <p class="text-gray-600 text-lg">Your local online tech helper</p>
-    </div>
-  </header>
+
 
      <!-- PROFILE PHOTO -->
       <div class="w-32 h-32 rounded-full overflow-hidden mb-4 profile-photo">
         <img src="images/profile.jpg" alt="Elvin photo" class="w-full h-full object-cover">
       </div>
+
+      <h1 class="text-3xl font-bold mb-1">Hey, I'm Elvin</h1>
+      <p class="text-gray-600 text-lg">Your local + online tech helper for small jobs</p>
+    </div>
+  </header>
 
   <!-- SERVICES SECTION -->
   <section class="py-14">
@@ -36,10 +37,12 @@
           <h3 class="text-xl font-semibold mb-3">Small Front-End Websites</h3>
           <p class="text-gray-600">Landing pages, micro-sites, or 1-page business sites built clean and fast.</p>
         </div>
+
         <div class="service-card bg-white shadow rounded-xl p-6 text-center">
           <h3 class="text-xl font-semibold mb-3">Tech Help / Device Setup</h3>
           <p class="text-gray-600">Local Services — router setup, smart devices, laptops, phones.</p>
         </div>
+
         <div class="service-card bg-white shadow rounded-xl p-6 text-center">
           <h3 class="text-xl font-semibold mb-3">Automation & Scripts</h3>
           <p class="text-gray-600">Simple tools to save you time: form-fillers, small automations, email helpers.</p>
@@ -48,30 +51,73 @@
     </div>
   </section>
 
-  <!-- SCREENSHOTS / GALLERY SECTION -->
+ <!-- SCREENSHOTS SECTION -->
   <section class="py-14 bg-white">
     <div class="max-w-5xl mx-auto px-6">
       <h2 class="text-2xl font-bold text-center mb-10">Project Screenshots</h2>
+
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="screenshot w-full h-40 rounded-xl"></div>
-        <div class="screenshot w-full h-40 rounded-xl"></div>
-        <div class="screenshot w-full h-40 rounded-xl"></div>
+
+        <!-- Screenshot 1 -->
+        <div class="rounded-xl overflow-hidden screenshot">
+          <img src="images/screenshot1.jpg" alt="Screenshot 1" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Screenshot 2 -->
+        <div class="rounded-xl overflow-hidden screenshot">
+          <img src="images/screenshot2.jpg" alt="Screenshot 2" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Screenshot 3 -->
+        <div class="rounded-xl overflow-hidden screenshot">
+          <img src="images/screenshot3.jpg" alt="Screenshot 3" class="w-full h-full object-cover">
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- CONTACT SECTION -->
+ <!-- CONTACT SECTION -->
   <section class="py-16">
     <div class="max-w-3xl mx-auto px-6 text-center">
       <h2 class="text-2xl font-bold mb-6">Contact Me</h2>
       <p class="text-gray-600 mb-8">Fill out the form below and I'll reach out ASAP.</p>
-      <div class="contact-form w-full h-[600px] rounded-xl flex items-center justify-center">
-        <span class="text-gray-500">Google Form Embed Goes Here</span>
-      </div>
+
+
+   <form action="https://formsubmit.co/Elvinb.dev@outlook.com" method="POST" class="max-w-xl mx-auto bg-white p-6 rounded-xl shadow space-y-4">
+
+  <!-- FormSubmit settings -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New Contact Message From Your Website!">
+  <input type="hidden" name="_template" value="table">
+
+  <div class="text-left">
+    <label class="block mb-1 font-medium">Your Name</label>
+    <input type="text" name="name" class="w-full p-3 border rounded-lg" required />
+  </div>
+
+  <div class="text-left">
+    <label class="block mb-1 font-medium">Your Email</label>
+    <input type="email" name="email" class="w-full p-3 border rounded-lg" required />
+  </div>
+
+  <div class="text-left">
+    <label class="block mb-1 font-medium">Your Message</label>
+    <textarea name="message" rows="5" class="w-full p-3 border rounded-lg" required></textarea>
+  </div>
+
+  <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+    Send Message
+  </button>
+
+</form>
+
+
     </div>
   </section>
 
-  <!-- FOOTER -->
+
+ <!-- FOOTER -->
   <footer class="py-6 bg-gray-900 text-gray-300 text-center">
     <p class="text-sm">© 2025 Elvin — Freelance Services</p>
   </footer>

@@ -23,15 +23,21 @@
         <img src="images/profile.jpeg" alt="Elvin photo" class="w-full h-full object-cover">
       </div>
 
-      <h1 class="text-3xl font-bold mb-1">Hey, I'm Elvin</h1>
-      <p class="text-gray-600 text-lg">Your local + online tech helper for small jobs</p>
+      <h1 class="text-3xl font-bold mb-1"data-translate>Hey, I'm Elvin</h1>
+      <p class="text-gray-600 text-lg"data-translate>I build clean websites, fix tech problems, and create simple automations that make life easier.</p>
+      <div class="mt-4 flex items-center justify-center">
+        <!--TOGGLE SWITCH FOR LANGUAGE -->
+  <label for="langToggle" class="mr-2 font-medium">Español</label>
+  <input type="checkbox" id="langToggle" class="toggle-checkbox">
+</div>
+
     </div>
   </header>
 
 <!-- SCREENSHOTS SECTION -->
   <section class="py-14 bg-white">
     <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl font-bold text-center mb-10">Project Screenshots</h2>
+      <h2 class="text-2xl font-bold text-center mb-10"data-translate>Project Screenshots</h2>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
@@ -58,32 +64,42 @@
   <!-- SERVICES SECTION -->
   <section class="py-14">
     <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl font-bold text-center mb-10">Services Offered</h2>
+      <h2 class="text-2xl font-bold text-center mb-10"data-translate>Services Offered</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3">Small Front-End Websites</h3>
-          <p class="text-gray-600">Landing pages, micro-sites, or 1-page business sites built clean and fast.</p>
+          <h3 class="text-xl font-semibold mb-3"data-translate>Fix My Website</h3>
+          <p class="text-gray-600"data-translate>Fast fixes for small website issues — broken buttons, layout problems, mobile bugs, contact form errors, formatting fixes, or slow pages.</p>
         </div>
 
         <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3">Tech Help / Device Setup</h3>
-          <p class="text-gray-600">Local Services — router setup, smart devices, laptops, phones.</p>
+          <h3 class="text-xl font-semibold mb-3"data-translate>One-Page Startup Website</h3>
+          <p class="text-gray-600"data-translate>A clean, modern landing page for your business. Includes a mobile-friendly layout, About section, service or product area, contact/booking section, clean styling.</p>
         </div>
 
         <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3">Automation & Scripts</h3>
-          <p class="text-gray-600">Simple tools to save you time: form-fillers, small automations, email helpers.</p>
+          <h3 class="text-xl font-semibold mb-3"data-translate>Sheets Automation</h3>
+          <p class="text-gray-600"data-translate>I build simple automations using Google Forms, Sheets, and Apps Script — auto-filled spreadsheets, email replies, PDF generation, dashboards, and workflow organizers.</p>
         </div>
       </div>
     </div>
   </section>
 
- 
+<!-- LOCAL SERVICES SECTION -->
+  <section class="py-14">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-center mb-10"data-translate>Local Tech Setup & Support</h2>
+      <div class="grid grid-cols-1 md:grid-cols-0 gap-6">
+        <div class="service-card bg-white shadow rounded-xl p-6 text-center">
+          <h3 class="text-xl font-semibold mb-3"data-translate>Local Support</h3>
+          <p class="text-gray-600"data-translate>In-person help with WiFi setup, smart devices, laptops, printers, accounts, and basic troubleshooting. Fast + friendly support for homes and small businesses.</p>
+        </div>
+      </section>
+
  <!-- CONTACT SECTION -->
   <section class="py-16">
     <div class="max-w-3xl mx-auto px-6 text-center">
-      <h2 class="text-2xl font-bold mb-6">Contact Me</h2>
-      <p class="text-gray-600 mb-8">Fill out the form below and I'll reach out ASAP.</p>
+      <h2 class="text-2xl font-bold mb-6" data-translate>Contact Me</h2>
+      <p class="text-gray-600 mb-8" data-translate>Fill out the form below and I'll reach out ASAP.</p>
 
 
    <form action="https://formsubmit.co/Elvinb.dev@outlook.com" method="POST" class="max-w-xl mx-auto bg-white p-6 rounded-xl shadow space-y-4">
@@ -123,6 +139,7 @@
   <footer class="py-6 bg-gray-900 text-gray-300 text-center">
     <p class="text-sm">© 2025 Elvin — Freelance Services</p>
   </footer>
-
+<script src="translate.js"></script>
 </body>
 </html>
+

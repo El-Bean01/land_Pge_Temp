@@ -1,0 +1,38 @@
+{
+  "en": {
+    "hero_title": "Hey, I'm Elvin",
+    "hero_desc": "I build clean websites, fix tech problems, and create simple automations that make life easier.",
+    "screenshots": "Project Screenshots",
+    "services": "Services Offered",
+    "fix_website_title": "Fix My Website",
+    "fix_website_desc": "Fast fixes for small website issues — broken buttons, layout problems, mobile bugs, contact form errors, formatting fixes, or slow pages.",
+    "onepage_title": "One-Page Startup Website",
+    "onepage_desc": "A clean, modern landing page for your business. Includes a mobile-friendly layout, About section, service or product area, contact/booking section, clean styling.",
+    "sheets_title": "Sheets Automation",
+    "sheets_desc": "I build simple automations using Google Forms, Sheets, and Apps Script — auto-filled spreadsheets, email replies, PDF generation, dashboards, and workflow organizers.",
+    "local_support_title": "Local Support",
+    "local_support_desc": "In-person help with WiFi setup, smart devices, laptops, printers, accounts, and basic troubleshooting. Fast + friendly support for homes and small businesses.",
+    "contact": "Contact Me",
+    "contact_desc": "Fill out the form below and I'll reach out ASAP.",
+    "send": "Send Message",
+    "local_services": "Local Tech Setup & Support"
+  },
+  "es": {
+    "hero_title": "Hola, soy Elvin",
+    "hero_desc": "Construyo sitios web limpios, arreglo problemas técnicos y creo automatizaciones simples que facilitan la vida.",
+    "screenshots": "Capturas de Proyecto",
+    "services": "Servicios Ofrecidos",
+    "fix_website_title": "Arreglar mi sitio web",
+    "fix_website_desc": "Soluciones rápidas para problemas pequeños del sitio web: botones rotos, problemas de diseño, errores móviles, errores de formularios, problemas de formato o páginas lentas.",
+    "onepage_title": "Sitio web de una página",
+    "onepage_desc": "Una página de inicio limpia y moderna para tu negocio. Incluye diseño móvil, sección 'Acerca de', área de servicios o productos, sección de contacto/reservas y estilo limpio.",
+    "sheets_title": "Automatización de Sheets",
+    "sheets_desc": "Creo automatizaciones simples usando Google Forms, Sheets y Apps Script: hojas auto-llenadas, respuestas de correo, generación de PDFs, dashboards y organizadores de flujo de trabajo.",
+    "local_support_title": "Soporte Local",
+    "local_support_desc": "Ayuda presencial con WiFi, dispositivos inteligentes, laptops, impresoras, cuentas y resolución básica de problemas. Soporte rápido y amigable para hogares y pequeñas empresas.",
+    "contact": "Contáctame",
+    "contact_desc": "Llena el formulario a continuación y me comunicaré contigo lo antes posible.",
+    "send": "Enviar Mensaje",
+    "local_services": "Soporte y Configuración Tecnológica Local"
+  }
+}

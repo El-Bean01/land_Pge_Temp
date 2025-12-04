@@ -27,3 +27,26 @@
 .contact-form {
   background-color: #e5e7eb; /* gray-200 fallback */
 }
+
+
+        /* Common Styles */
+        @layer components {
+            .slide{
+                @apply w-full h-full relative
+            }
+            .image{
+                @apply w-full h-full object-cover 
+            }
+            .arrow {
+                @apply md:text-xl sm:text-base text-xs 
+                font-bold absolute top-1/2 translate-y-[-50%] 
+                scale-[2] rounded-full bg-green-900 
+            }
+            .prev{
+                @apply left-5 sm:px-2 px-1.5 py-0.5 
+            }
+            .next{
+                @apply right-5 sm:px-2 px-1.5 py-0.5 
+            }
+        }
+   

@@ -8,3 +8,4 @@ Landing Page for Services
 
 #11/26/25 7:50am - things are harder to pick back up from a day of not coding try not to do that again. decided against the google form, wanted to just have a simple message sent to my email, I went with form submit instead for quick use. need to add photos to the folder and start tweaking the details.
 
+#11/27/25 12:43am - Added the photos, i need to change the service to flow better and be more clear. looking for a way to host this, probably on github.

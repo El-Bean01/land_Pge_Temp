@@ -9,137 +9,182 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Custom Styles -->
-   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="bg-gray-100 text-gray-900">
 
- <!-- HEADER / HERO SECTION -->
-  <header class="w-full bg-white shadow-sm">
-    <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col items-center text-center">
+<!-- HEADER / HERO SECTION -->
+<header class="w-full bg-white shadow-sm">
+  <div class="max-w-5xl mx-auto px-6 py-8 flex flex-col items-center text-center">
 
-
-     <!-- PROFILE PHOTO -->
-      <div class="w-32 h-32 rounded-full overflow-hidden mb-4 profile-photo">
-        <img src="images/profile.jpeg" alt="Elvin photo" class="w-full h-full object-cover">
-      </div>
-
-      <h1 class="text-3xl font-bold mb-1"data-translate>Hey, I'm Elvin</h1>
-      <p class="text-gray-600 text-lg"data-translate>I build clean websites, fix tech problems, and create simple automations that make life easier.</p>
-      <div class="mt-4 flex items-center justify-center">
-        <!--TOGGLE SWITCH FOR LANGUAGE -->
-  <label for="langToggle" class="mr-2 font-medium">Español</label>
-  <input type="checkbox" id="langToggle" class="toggle-checkbox">
-</div>
-
+    <!-- PROFILE PHOTO -->
+    <div class="w-32 h-32 rounded-full overflow-hidden mb-4 profile-photo">
+      <img src="images/profile.jpeg" alt="Elvin photo" class="w-full h-full object-cover">
     </div>
-  </header>
+
+    <h1 class="text-3xl font-bold mb-1" data-key="hero_title">Hey, I'm Elvin</h1>
+    <p class="text-gray-600 text-lg" data-key="hero_desc">
+      I build clean websites, fix tech problems, and create simple automations that make life easier.
+    </p>
+
+    <div class="mt-4 flex items-center justify-center">
+      <!-- TOGGLE SWITCH FOR LANGUAGE -->
+      <label for="langToggle" class="mr-2 font-medium">Español</label>
+      <input type="checkbox" id="langToggle" class="toggle-checkbox">
+    </div>
+
+  </div>
+</header>
 
 <!-- SCREENSHOTS SECTION -->
-  <section class="py-14 bg-white">
-    <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl font-bold text-center mb-10"data-translate>Project Screenshots</h2>
+<section class="py-14 bg-white">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-2xl font-bold text-center mb-10" data-key="screenshots">Project Screenshots</h2>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
-        <!-- Screenshot 1 -->
-        <div class="rounded-xl overflow-hidden screenshot">
-          <img src="images/screenshot1.jpg" alt="Screenshot 1" class="w-full">
-        </div>
-
-        <!-- Screenshot 2 -->
-        <div class="rounded-xl overflow-hidden screenshot">
-          <img src="images/screenshot2.png" alt="Screenshot 2" class="w-full">
-        </div>
-
-        <!-- Screenshot 3 -->
-        <div class="rounded-xl overflow-hidden screenshot">
-          <img src="images/screenshot3.png" alt="Screenshot 3" class="w-full">
-        </div>
-
+      <div class="rounded-xl overflow-hidden screenshot">
+        <img src="images/screenshot1.jpg" alt="Screenshot 1" class="w-full">
       </div>
-    </div>
-  </section>
 
-
-  <!-- SERVICES SECTION -->
-  <section class="py-14">
-    <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl font-bold text-center mb-10"data-translate>Services Offered</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3"data-translate>Fix My Website</h3>
-          <p class="text-gray-600"data-translate>Fast fixes for small website issues — broken buttons, layout problems, mobile bugs, contact form errors, formatting fixes, or slow pages.</p>
-        </div>
-
-        <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3"data-translate>One-Page Startup Website</h3>
-          <p class="text-gray-600"data-translate>A clean, modern landing page for your business. Includes a mobile-friendly layout, About section, service or product area, contact/booking section, clean styling.</p>
-        </div>
-
-        <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3"data-translate>Sheets Automation</h3>
-          <p class="text-gray-600"data-translate>I build simple automations using Google Forms, Sheets, and Apps Script — auto-filled spreadsheets, email replies, PDF generation, dashboards, and workflow organizers.</p>
-        </div>
+      <div class="rounded-xl overflow-hidden screenshot">
+        <img src="images/screenshot2.png" alt="Screenshot 2" class="w-full">
       </div>
+
+      <div class="rounded-xl overflow-hidden screenshot">
+        <img src="images/screenshot3.png" alt="Screenshot 3" class="w-full">
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section class="py-14">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-2xl font-bold text-center mb-10" data-key="services">Services Offered</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <div class="service-card bg-white shadow rounded-xl p-6 text-center">
+        <h3 class="text-xl font-semibold mb-3" data-key="fix_website_title">Fix My Website</h3>
+        <p class="text-gray-600" data-key="fix_website_desc">
+          Fast fixes for small website issues — broken buttons, layout problems, mobile bugs, contact form errors, formatting fixes, or slow pages.
+        </p>
+      </div>
+
+      <div class="service-card bg-white shadow rounded-xl p-6 text-center">
+        <h3 class="text-xl font-semibold mb-3" data-key="onepage_title">One-Page Startup Website</h3>
+        <p class="text-gray-600" data-key="onepage_desc">
+          A clean, modern landing page for your business. Includes a mobile-friendly layout, About section, service or product area, contact/booking section, clean styling.
+        </p>
+      </div>
+
+      <div class="service-card bg-white shadow rounded-xl p-6 text-center">
+        <h3 class="text-xl font-semibold mb-3" data-key="sheets_title">Sheets Automation</h3>
+        <p class="text-gray-600" data-key="sheets_desc">
+          I build simple automations using Google Forms, Sheets, and Apps Script — auto-filled spreadsheets, email replies, PDF generation, dashboards, and workflow organizers.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 <!-- LOCAL SERVICES SECTION -->
-  <section class="py-14">
-    <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl font-bold text-center mb-10"data-translate>Local Tech Setup & Support</h2>
-      <div class="grid grid-cols-1 md:grid-cols-0 gap-6">
-        <div class="service-card bg-white shadow rounded-xl p-6 text-center">
-          <h3 class="text-xl font-semibold mb-3"data-translate>Local Support</h3>
-          <p class="text-gray-600"data-translate>In-person help with WiFi setup, smart devices, laptops, printers, accounts, and basic troubleshooting. Fast + friendly support for homes and small businesses.</p>
-        </div>
-      </section>
+<section class="py-14">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-2xl font-bold text-center mb-10" data-key="local_services">Local Tech Setup & Support</h2>
 
- <!-- CONTACT SECTION -->
-  <section class="py-16">
-    <div class="max-w-3xl mx-auto px-6 text-center">
-      <h2 class="text-2xl font-bold mb-6" data-translate>Contact Me</h2>
-      <p class="text-gray-600 mb-8" data-translate>Fill out the form below and I'll reach out ASAP.</p>
-
-
-   <form action="https://formsubmit.co/Elvinb.dev@outlook.com" method="POST" class="max-w-xl mx-auto bg-white p-6 rounded-xl shadow space-y-4">
-
-  <!-- FormSubmit settings -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_subject" value="New Contact Message From Your Website!">
-  <input type="hidden" name="_template" value="table">
-
-  <div class="text-left">
-    <label class="block mb-1 font-medium">Your Name</label>
-    <input type="text" name="name" class="w-full p-3 border rounded-lg" required />
-  </div>
-
-  <div class="text-left">
-    <label class="block mb-1 font-medium">Your Email</label>
-    <input type="email" name="email" class="w-full p-3 border rounded-lg" required />
-  </div>
-
-  <div class="text-left">
-    <label class="block mb-1 font-medium">Your Message</label>
-    <textarea name="message" rows="5" class="w-full p-3 border rounded-lg" required></textarea>
-  </div>
-
-  <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
-    Send Message
-  </button>
-
-</form>
-
-
+    <div class="grid grid-cols-1 gap-6">
+      <div class="service-card bg-white shadow rounded-xl p-6 text-center">
+        <h3 class="text-xl font-semibold mb-3" data-key="local_support_title">Local Support</h3>
+        <p class="text-gray-600" data-key="local_support_desc">
+          In-person help with WiFi setup, smart devices, laptops, printers, accounts, and basic troubleshooting. Fast + friendly support for homes and small businesses.
+        </p>
+      </div>
     </div>
-  </section>
 
+  </div>
+</section>
 
- <!-- FOOTER -->
-  <footer class="py-6 bg-gray-900 text-gray-300 text-center">
-    <p class="text-sm">© 2025 Elvin — Freelance Services</p>
-  </footer>
+<!-- CONTACT SECTION -->
+<section class="py-16">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <h2 class="text-2xl font-bold mb-6" data-key="contact">Contact Me</h2>
+    <p class="text-gray-600 mb-8" data-key="contact_desc">Fill out the form below and I'll reach out ASAP.</p>
+
+    <form action="https://formsubmit.co/Elvinb.dev@outlook.com" method="POST" class="max-w-xl mx-auto bg-white p-6 rounded-xl shadow space-y-4">
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Contact Message From Your Website!">
+      <input type="hidden" name="_template" value="table">
+
+      <div class="text-left">
+        <label class="block mb-1 font-medium">Your Name</label>
+        <input type="text" name="name" class="w-full p-3 border rounded-lg" required />
+      </div>
+
+      <div class="text-left">
+        <label class="block mb-1 font-medium">Your Email</label>
+        <input type="email" name="email" class="w-full p-3 border rounded-lg" required />
+      </div>
+
+      <div class="text-left">
+        <label class="block mb-1 font-medium">Your Message</label>
+        <textarea name="message" rows="5" class="w-full p-3 border rounded-lg" required></textarea>
+      </div>
+
+      <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition" data-key="send">
+        Send Message
+      </button>
+
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-6 bg-gray-900 text-gray-300 text-center">
+  <p class="text-sm">© 2025 Elvin — Freelance Services</p>
+</footer>
+
 <script src="translate.js"></script>
+
+<script>
+let translationsData = {};
+let currentLang = 'en';
+
+// Load JSON
+fetch('translations.json')
+  .then(response => response.json())
+  .then(data => {
+    translationsData = data;
+  });
+
+// Translate function
+function translatePage(lang) {
+  document.querySelectorAll('[data-key]').forEach(el => {
+    const key = el.getAttribute('data-key');
+    if (translationsData[lang] && translationsData[lang][key]) {
+      el.textContent = translationsData[lang][key];
+    }
+  });
+}
+
+// Toggle checkbox
+document.getElementById('langToggle').addEventListener('change', (e) => {
+  currentLang = e.target.checked ? 'es' : 'en';
+  translatePage(currentLang);
+});
+</script>
+
+<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center hidden z-50">
+  <img id="lightbox-img" class="max-w-full max-h-full rounded-lg shadow-lg" src="" alt="">
+  <span id="lightbox-close" class="absolute top-4 right-4 text-white text-3xl cursor-pointer">&times;</span>
+</div>
+
 </body>
 </html>
+
 

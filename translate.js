@@ -1,4 +1,7 @@
 
+console.log("contact.js loaded");
+
+
 const toggle = document.getElementById("langToggle");
 
 toggle.addEventListener("change", () => {
@@ -12,22 +15,24 @@ toggle.addEventListener("change", () => {
   });
 });
 
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
-const closeBtn = document.getElementById("lightbox-close");
+document.addEventListener("DOMContentLoaded", () => {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const closeBtn = document.getElementById("lightbox-close");
 
-document.querySelectorAll(".screenshot img").forEach(img => {
-  img.style.cursor = "pointer";
-  img.addEventListener("click", () => {
-    lightboxImg.src = img.src;
-    lightbox.classList.remove("hidden");
+  document.querySelectorAll(".screenshot img").forEach(img => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightbox.classList.remove("hidden");
+    });
+  });
+
+  closeBtn.addEventListener("click", () => {
+    lightbox.classList.add("hidden");
+  });
+
+  lightbox.addEventListener("click", e => {
+    if (e.target === lightbox) lightbox.classList.add("hidden");
   });
 });
 
-closeBtn.addEventListener("click", () => {
-  lightbox.classList.add("hidden");
-});
-
-lightbox.addEventListener("click", e => {
-  if (e.target === lightbox) lightbox.classList.add("hidden");
-});
